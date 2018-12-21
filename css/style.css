@@ -1,0 +1,26 @@
+body {
+    font-family: 'Bungee', cursive;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    background: url("../images/concrete_seamless.png");
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* general */
+  
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+  #crystalsCollector{
+  }
+
+  }
+ 
+  

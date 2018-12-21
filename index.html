@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="Javascript/Game.js"></script>
+  <meta charset="UTF-8">
+  <title>Crystals Collector!</title>
+</head>
+
+<!-- CSS Styles (These styles are provided to you. Don't touch these!) -->
+<style>
+  body {
+    background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/8vV2rpe/beach-style-blue-background-1080p_qyvzckhb__F0000.png) no-repeat;
+  }
+
+</style>
+
+<body>
+  <div id="crystalsCollector"><H1>Crystals Collector!</H1></div>
+  <div id="Rules">
+      <P>You will be given a random number at the start of the game.</P>
+      <P>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</P>
+      <P>You win the game by matching your total score to random number, you ose the game if your total socre goes above the random number.</P>
+      <P>The value of each crystal is hidden form you until you click on it.</P>
+      <P>Each time when the game starts, the game will change the value of each crystal</P>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+        <div id="Value"></div></div>
+        <!-- TEXT DISPLAY VALUE -->
+        <div class="col-md-3">
+        <div id="Guesses">
+          <P>wins: </P>
+          <P>Losses: </P>
+        </div></div>
+        <!-- P TEXT DISPLAY Wins-->
+        <!-- P TEXT DISPLAY Losses-->
+    </div> 
+
+
+    <div class="row">
+        <div class="col-md-1">
+    <div id= "buttons"></div>
+    <button id="Diamond1"><img src="https://png.pngtree.com/element_origin_min_pic/17/09/27/7c1afee0acbabf5846d1d28d5eeccbb0.jpg" alt="" class="img diamond-1" style="height: 100px; width: 100px;"></div>
+    </button>
+
+        <div class="col-md-1">
+    <button id="Diamond2"><img src="http://cdn.shopify.com/s/files/1/2040/0303/products/Diamond_Beveled_Gemstone_Birthstone_Jewel_Cartoon_-_Amethyst_Purple_521465848_grande.jpg?v=1534944619" alt="" class="img diamond-2" style="height: 100px; width: 100px;"></div>
+    </button>  
+
+        <div class="col-md-1">  
+    <button id="Diamond3"><div id="Diamond3"><img src="https://previews.123rf.com/images/keltmd/keltmd1612/keltmd161200127/68723114-cartoon-realistic-gems-jewels-diamond-brilliant-vector-gemstone-and-crystal-precious-glass-elements-.jpg" alt="" class="img diamond-3" style="height: 100px; width: 100px;"></div></div>
+    </button>   
+
+        <div class="col-md-1"> 
+    <button id="Diamond4"><div id="Diamond4"><div id="Diamond4"><img src="https://previews.123rf.com/images/pivden/pivden1802/pivden180200093/95608472-ruby-red-gem-stone-.jpg" alt="" class="img diamond-4" style="height: 100px; width: 100px;"></div></div></div>
+    </button>
+
+    </div> 
+
+
+    <div id="Scorebox">Your total score is: </div>
+
+    <div id="Score"></div>
+
+  </script>
+</body>
+
+</html>
